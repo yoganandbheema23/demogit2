@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-09T15:24:16 IST" name="Suite" finished-at="2024-02-09T15:24:30 IST" duration-ms="13232">
+    <groups>
+    </groups>
+    <test started-at="2024-02-09T15:24:16 IST" name="Test" finished-at="2024-02-09T15:24:30 IST" duration-ms="13232">
+      <class name="demos.regDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demos.regDemo@55634720]" started-at="2024-02-09T15:24:16 IST" name="setUp" finished-at="2024-02-09T15:24:23 IST" duration-ms="6436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demos.regDemo@55634720]" started-at="2024-02-09T15:24:23 IST" name="search" data-provider="test-data" finished-at="2024-02-09T15:24:29 IST" duration-ms="6563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testFirstname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testLastname]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testyoganand@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8801636401]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[testyoganand]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testyoganand]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demos.regDemo@55634720]" started-at="2024-02-09T15:24:29 IST" name="tearDown" finished-at="2024-02-09T15:24:30 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demos.regDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
